@@ -1,0 +1,99 @@
+@import './base.scss';
+
+.a-button {
+  border-radius: $borderRadius;
+  padding: $defaultPaddingTop $defaultPaddingLeft;
+  border: 1px solid;
+}
+
+.a-button-large {
+  padding: $largePaddingTop $largePaddingLeft;
+}
+
+.a-button-small {
+  padding: $smallPaddingTop $smallPaddingLeft;
+}
+
+.a-button--default {
+  background-color: $defaultColor;
+  color: $defaultTextColor;
+  border-color: $defaultTextColor;
+}
+
+.a-button--default:hover {
+  background-color: $defaultHoverColor;
+}
+
+.a-button--default:active {
+  background-color: $defaultActiveColor;
+}
+
+.a-button--primary {
+  background-color: $primaryColor;
+  color: $primaryTextColor;
+  border-color: $primaryTextColor;
+}
+
+.a-button--primary:hover {
+  background-color: $primaryHoverColor;
+}
+
+.a-button--primary:active {
+  background-color: $primaryActiveColor;
+}
+
+.a-button--warning {
+  background-color: $warningColor;
+  color: $waringTextColor;
+  border-color: $warningColor;
+}
+
+.a-button--warning:hover {
+  background-color: $waringHoverColor;
+}
+
+.a-button--warning:active {
+  background-color: $waringActiveColor;
+}
+
+.a-button--danger {
+  background-color: $dangerColor;
+  color: $dangerTextColor;
+  border-color: $dangerColor;
+}
+
+.a-button--danger:hover {
+  background-color: $dangerHoverColor;
+}
+
+.a-button--danger:active {
+  background-color: $dangerActiveColor;
+}
+
+.a-button--success {
+  background-color: $successColor;
+  color: $successTextColor;
+  border-color: $successColor;
+}
+
+.a-button--success:hover {
+  background-color: $successHoverColor;
+}
+
+.a-button--success:active {
+  background-color: $successActiveColor;
+}
+
+.a-button--info {
+  background-color: $infoColor;
+  color: $infoTextColor;
+  border-color: $infoColor;
+}
+
+.a-button--info:hover {
+  background-color: $infoHoverColor;
+}
+
+.a-button--info:active {
+  background-color: $infoActiveColor;
+}
