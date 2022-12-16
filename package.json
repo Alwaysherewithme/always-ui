@@ -2,18 +2,33 @@
   "name": "always-ui",
   "version": "1.0.0",
   "description": "An UI components library based on Vue",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": ["lib", "packages", "example"],
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js --progress --color",
     "build": "webpack --config webpack.prod.js --progress --color",
+    "build:style": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["UI", "Vue", "always UI"],
+  "keywords": [
+    "UI",
+    "Vue",
+    "always UI"
+  ],
   "author": "alwaysherewithme@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
     "css-loader": "^6.7.2",
+    "cssnano": "^5.1.14",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
     "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^8.0.0",
+    "postcss": "^8.4.20",
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
@@ -23,5 +38,8 @@
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.45"
   }
 }
