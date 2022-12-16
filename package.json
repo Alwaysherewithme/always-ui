@@ -1,9 +1,13 @@
 {
   "name": "always-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An UI components library based on Vue",
   "main": "lib/index.js",
-  "files": ["lib", "packages", "example"],
+  "files": [
+    "lib",
+    "packages",
+    "example"
+  ],
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js --progress --color",
     "build": "webpack --config webpack.prod.js --progress --color",
